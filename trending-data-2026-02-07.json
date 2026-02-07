@@ -1,0 +1,66 @@
+[
+  {
+    "full_name": "openai/skills",
+    "name": "skills",
+    "description": "Skills Catalog for Codex",
+    "language": "Python",
+    "today_stars": "583",
+    "total_stars": "4987"
+  },
+  {
+    "full_name": "bytedance/UI-TARS-desktop",
+    "name": "UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "today_stars": "573",
+    "total_stars": "27173"
+  },
+  {
+    "full_name": "nvm-sh/nvm",
+    "name": "nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "today_stars": "131",
+    "total_stars": "91528"
+  },
+  {
+    "full_name": "likec4/likec4",
+    "name": "likec4",
+    "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+    "language": "TypeScript",
+    "today_stars": "40",
+    "total_stars": "1862"
+  },
+  {
+    "full_name": "aquasecurity/trivy",
+    "name": "trivy",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "language": "Go",
+    "today_stars": "165",
+    "total_stars": "31571"
+  },
+  {
+    "full_name": "ZeroTworu/anet",
+    "name": "anet",
+    "description": "Simple Rust VPN Client / Server",
+    "language": "Rust",
+    "today_stars": "193",
+    "total_stars": "555"
+  },
+  {
+    "full_name": "Flowseal/zapret-discord-youtube",
+    "name": "zapret-discord-youtube",
+    "description": "No description",
+    "language": "Batchfile",
+    "today_stars": "70",
+    "total_stars": "21983"
+  },
+  {
+    "full_name": "DataExpert-io/data-engineer-handbook",
+    "name": "data-engineer-handbook",
+    "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+    "language": "Jupyter Notebook",
+    "today_stars": "71",
+    "total_stars": "39933"
+  }
+]

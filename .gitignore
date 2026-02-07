@@ -12,9 +12,7 @@ build/
 *.log
 logs/
 
-# Generated reports and data (you may want to commit these if you track history)
-trending-data-*.json
-github-trending-report-*.md
-
-# Skill working directory (keep the skill package, but not the source dir)
-# We'll keep github-trending-daily-report.skill and the source code
+# Generated reports and data - optionally track history
+# Comment out the next two lines if you want to track daily reports
+# trending-data-*.json
+# github-trending-report-*.md
