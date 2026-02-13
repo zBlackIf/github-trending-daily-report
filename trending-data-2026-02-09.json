@@ -1,0 +1,98 @@
+[
+  {
+    "full_name": "KeygraphHQ/shannon",
+    "name": "shannon",
+    "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+    "language": "TypeScript",
+    "today_stars": "3479",
+    "total_stars": "13565"
+  },
+  {
+    "full_name": "pydantic/monty",
+    "name": "monty",
+    "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+    "language": "Rust",
+    "today_stars": "456",
+    "total_stars": "2892"
+  },
+  {
+    "full_name": "openai/skills",
+    "name": "skills",
+    "description": "Skills Catalog for Codex",
+    "language": "Python",
+    "today_stars": "1425",
+    "total_stars": "7046"
+  },
+  {
+    "full_name": "virattt/dexter",
+    "name": "dexter",
+    "description": "An autonomous agent for deep financial research",
+    "language": "TypeScript",
+    "today_stars": "1039",
+    "total_stars": "12738"
+  },
+  {
+    "full_name": "microsoft/litebox",
+    "name": "litebox",
+    "description": "A security-focused library OS supporting kernel- and user-mode execution",
+    "language": "Rust",
+    "today_stars": "359",
+    "total_stars": "1441"
+  },
+  {
+    "full_name": "google/langextract",
+    "name": "langextract",
+    "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+    "language": "Python",
+    "today_stars": "438",
+    "total_stars": "24802"
+  },
+  {
+    "full_name": "obra/superpowers",
+    "name": "superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "today_stars": "813",
+    "total_stars": "47808"
+  },
+  {
+    "full_name": "OpenBMB/MiniCPM-o",
+    "name": "MiniCPM-o",
+    "description": "A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone",
+    "language": "Python",
+    "today_stars": "212",
+    "total_stars": "23437"
+  },
+  {
+    "full_name": "likec4/likec4",
+    "name": "likec4",
+    "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+    "language": "TypeScript",
+    "today_stars": "271",
+    "total_stars": "2394"
+  },
+  {
+    "full_name": "iOfficeAI/AionUi",
+    "name": "AionUi",
+    "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+    "language": "TypeScript",
+    "today_stars": "335",
+    "total_stars": "13247"
+  },
+  {
+    "full_name": "home-assistant/addons",
+    "name": "addons",
+    "description": "➕ Docker add-ons for Home Assistant",
+    "language": "Shell",
+    "today_stars": "11",
+    "total_stars": "2015"
+  },
+  {
+    "full_name": "gitbutlerapp/gitbutler",
+    "name": "gitbutler",
+    "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+    "language": "Rust",
+    "today_stars": "414",
+    "total_stars": "18376"
+  }
+]

@@ -1,0 +1,743 @@
+{
+  Google/ai": {
+    "repo_info": {
+      "name": "langextract",
+      "full_name": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 28885,
+      "forks": 1943,
+      "topics": ["gemini", "gemini-ai", "gemini-api", "gemini-flash", "gemini-pro", "information-extration", "large-language-models", "llm", "nlp", "python", "structured-data"],
+      "homepage": "https://pypi.org/project/langextract/",
+      "created_at": "2025-07-08",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Python-based LLM extraction framework with chunking and parallel processing",
+      "core_dependencies": [
+        "google-genai>=1.39.0",
+        "aiohttp>=3.8.0",
+        "pandas>=1.3.0",
+        "pydantic>=1.8.0",
+        "PyYAML>=6.0",
+        "google-cloud-storage>=2.14.0"
+      ],
+      "key_technologies": [
+        "Few-shot learning",
+        "Text chunking strategies",
+        "Parallel processing",
+        "Source grounding",
+        "Vertex AI Batch API",
+        "Interactive HTML visualization"
+      ],
+      "provider_system": "Plugin-based architecture with entry points for Gemini, Ollama, and OpenAI providers"
+    },
+    "core_features": [
+      "Precise source grounding - maps every extraction to exact source text location",
+      "Structured output enforcement using controlled generation",
+      "Optimized for long documents with parallel chunking",
+      "Interactive HTML visualization for reviewing extracted entities",
+      "Flexible LLM support (Gemini, OpenAI, Ollama)",
+      "Vertex AI Batch API for cost-effective large-scale processing",
+      "Multi-pass extraction for improved recall",
+      "Domain-adaptable through few-shot examples"
+    ],
+    "potential_use_cases": [
+      "Clinical note and medical report structuring",
+      "Financial document analysis and data extraction",
+      "Legal contract information extraction",
+      "Literature analysis and character relationship mapping",
+      "Customer feedback sentiment and entity extraction",
+      "Research paper data extraction",
+      "Automated document processing pipelines",
+      "Compliance document review"
+    ]
+  },
+  "iOfficeAI/AionUi": {
+    "repo_info": {
+      "name": "AionUi",
+      "full_name": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more.",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 14606,
+      "forks": 1116,
+      "topics": ["acp", "ai", "ai-agent", "chat", "chatbot", "claude-code", "clawd", "clawdbot", "codex", "cowork", "gemini", "gemini-cli", "llm", "nano-banana", "office", "openclaw", "opencode", "skills", "webui"],
+      "homepage": "https://www.aionui.com",
+      "created_at": "2025-08-07",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Desktop application with web-based multi-agent AI assistant platform",
+      "core_technologies": [
+        "TypeScript",
+        "SQLite for local data storage",
+        "WebSocket/SSE for real-time updates",
+        "Multi-provider LLM integration",
+        "Scheduled task system",
+        "File operation automation"
+      ],
+      "supported_ai_tools": [
+        "Gemini CLI (built-in)",
+        "Claude Code",
+        "Codex",
+        "Qwen Code",
+        "Goose CLI",
+        "OpenClaw",
+        "Auggie"
+      ],
+      "access_methods": ["Desktop GUI", "WebUI remote access", "Telegram bot", "Lark/Feishu", "Slack (planned)"]
+    },
+    "core_features": [
+      "Multi-agent mode - unified interface for all CLI AI tools",
+      "Auto-detection of local AI CLI tools",
+      "Local SQLite storage with multi-session support",
+      "WebUI mode for cross-device access",
+      "Scheduled task automation for 24/7 unattended operation",
+      "Smart file management - batch rename, auto organize, classify",
+      "Preview panel for 9+ formats (PDF, Word, Excel, PPT, etc.)",
+      "AI image generation and editing (Gemini-powered)",
+      "Multi-model support (Gemini, OpenAI, Claude, Qwen, Ollama, LM Studio)",
+      "10+ professional AI assistants with customizable skills",
+      "CSS-based interface customization"
+    ],
+    "potential_use_cases": [
+      "AI office automation and document processing",
+      "Remote AI assistant accessible from any device",
+      "Automated report generation and scheduling",
+      "File organization and cleanup automation",
+      "Cross-platform AI development tooling",
+      "Enterprise AI workflow integration",
+      "Visual AI content creation and editing",
+      "Batch document analysis and summarization"
+    ]
+  },
+  "KeygraphHQ/shannon": {
+    "repo_info": {
+      "name": "shannon",
+      "full_name": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "stars": 19939,
+      "forks": 2035,
+      "topics": ["penetration-testing", "pentesting", "security-audit", "security-automation", "security-tools"],
+      "homepage": "https://keygraph.io/",
+      "created_at": "2025-09-27",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Multi-agent autonomous penetration testing framework using Anthropic Claude Agent SDK",
+      "core_dependencies": [
+        "@anthropic-ai/claude-agent-sdk": "^0.2.38",
+        "@temporalio/activity": "^1.11.0",
+        "@temporalio/client": "^1.11.0",
+        "@temporalio/worker": "^1.11.0",
+        "@temporalio/workflow": "^1.11.0",
+        "zod": "^4.3.6",
+        "zx": "^8.0.0"
+      ],
+      "workflow_engine": "Temporal for durable workflow orchestration",
+      "llm_provider": "Anthropic Claude (with experimental router for OpenAI/Gemini)"
+    },
+    "core_features": [
+      "Fully autonomous operation - single command launch",
+      "96.15% success rate on XBOW benchmark",
+      "Pentester-grade reports with reproducible exploits",
+      "Critical OWASP vulnerability coverage: Injection, XSS, SSRF, Broken Auth",
+      "Code-aware dynamic testing combining white-box and black-box analysis",
+      "Integrated security tools: Nmap, Subfinder, WhatWeb, Schemathesis",
+      "Parallel processing for faster results",
+      "Advanced 2FA/TOTP login handling including Google Sign-In",
+      'No Exploit, No Report policy - only validates vulnerabilities'
+    ],
+    "potential_use_cases": [
+      "CI/CD security testing integration",
+      "Continuous security monitoring in development pipelines",
+      "Automated penetration testing for staging environments",
+      "Vulnerability assessment for web applications",
+      "Security compliance verification",
+      "Educational tool for security training",
+      "Red team automation",
+      "Pre-production security validation"
+    ]
+  },
+  "github/gh-aw": {
+    "repo_info": {
+      "name": "gh-aw",
+      "full_name": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "license": "MIT",
+      "stars": 1404,
+      "forks": 109,
+      "topics": ["actions", "cai", "ci", "claude-code", "codex", "copilot", "gh-extension", "github-actions"],
+      "homepage": "https://gh.io/gh-aw",
+      "created_at": "2025-08-12",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "GitHub CLI extension for agentic workflows in GitHub Actions",
+      "core_technologies": [
+        "Go programming language",
+        "GitHub Actions integration",
+        "Anthropic Agent SDK support",
+        "Safe-outputs for write operations",
+        "Sandboxed execution environment"
+      ],
+      "security_features": [
+        "Read-only permissions by default",
+        "Sanitized safe-outputs for write access",
+        "Network isolation",
+        "Supply chain security with SHA-pinned dependencies",
+        "Tool allow-listing",
+        "Compile-time validation"
+      ],
+      "workflow_types": "Natural language markdown-based workflows"
+    },
+    "core_features": [
+      "Write agentic workflows in natural language markdown",
+      "Run workflows in GitHub Actions",
+      "Read-only permissions by default for safety",
+      "Human approval gates for critical operations",
+      "Sandboxed execution with input sanitization",
+      "AI-driven automation for repository tasks",
+      "Team member access controls",
+      "Multi-layer protection architecture"
+    ],
+    "potential_use_cases": [
+      "Automated code review workflows",
+      "Repository maintenance automation",
+      "Security vulnerability scanning workflows",
+      "Documentation generation",
+      "Automated testing orchestration",
+      "Dependency update workflows",
+      "Release process automation",
+      "Issue triage and management"
+    ]
+  },
+  "EveryInc/compound-engineering-plugin": {
+    "repo_info": {
+      "name": "compound-engineering-plugin",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "description": "Official Claude Code compound engineering plugin",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 8216,
+      "forks": 645,
+      "topics": [],
+      "homepage": "",
+      "created_at": "2025-10-09",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Claude Code plugin marketplace with compound engineering methodology",
+      "core_workflow": "Plan -> Work -> Review -> Compound -> Repeat",
+      "philosophy": "Each unit of engineering work should make subsequent units easier",
+      "cli_features": "Bun/TypeScript CLI for Claude Code plugin conversion",
+      "supported_targets": ["Claude Code (native)", "OpenCode (experimental)", "Codex (experimental)"]
+    },
+    "core_features": [
+      "Plan workflow - Turn feature ideas into detailed implementation plans",
+      "Work workflow - Execute plans with worktrees and task tracking",
+      "Review workflow - Multi-agent code review before merging",
+      "Compound workflow - Document learnings for future work",
+      "Cross-platform plugin support (Claude Code, OpenCode, Codex)",
+      "Personal config sync between platforms",
+      "Skills and MCP server integration",
+      "Plan, review, and codify knowledge for reusability"
+    ],
+    "potential_use_cases": [
+      "Feature development with AI assistance",
+      "Code review automation",
+      "Knowledge management and documentation",
+      "Multi-platform AI tooling synchronization",
+      "Engineering workflow optimization",
+      "Best practices codification",
+      "Team collaboration enhancement",
+      "Iterative development with compound learning"
+    ]
+  },
+  "hsliuping/TradingAgents-CN": {
+    "repo_info": {
+      "name": "TradingAgents-CN",
+      "full_name": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "license": "Mixed (Apache-2.0 + Commercial)",
+      "stars": 16749,
+      "forks": 3626,
+      "topics": [],
+      "homepage": null,
+      "created_at": "2025-06-26",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Multi-agent LLM stock analysis framework with FastAPI + Vue 3",
+      "tech_stack": {
+        "backend": "FastAPI + Uvicorn",
+        "frontend": "Vue 3 + Vite + Element Plus",
+        "database": "MongoDB + Redis",
+        "deployment": "Docker (multi-architecture: amd64 + arm64)"
+      },
+      "v1_0_features": {
+        "user_management": "Complete user authentication, role management, operation logs",
+        "config_management": "Visual LLM configuration, data source management",
+        "caching": "MongoDB/Redis/file multi-level caching",
+        "notifications": "SSE+WebSocket dual-channel real-time updates",
+        "data_sources": ["Tushare", "AkShare", "BaoStock"]
+      },
+      "supported_markets": ["A-Shares", "Hong Kong Stocks", "US Stocks"]
+    },
+    "core_features": [
+      "Multi-agent LLM stock analysis framework",
+      "Chinese-localized interface and documentation",
+      "Web-based real-time progress tracking",
+      "Batch stock analysis capability",
+      "Smart stock filtering and ranking",
+      "Watchlist management with grouping",
+      "Mock trading system for strategy verification",
+      "Dynamic LLM provider management",
+      "Report export (Markdown/Word/PDF)",
+      "Technical indicator calculation (bug-fixed in v1.0.0)",
+      "Fundamental data analysis"
+    ],
+    "potential_use_cases": [
+      "A-share stock research and analysis",
+      "Investment strategy development and testing",
+      "Financial data analysis and visualization",
+      "Quantitative trading research",
+      "Financial education and learning",
+      "Market sentiment analysis",
+      "Portfolio management assistance",
+      "Regulatory Chinese stock market research"
+    ]
+  },
+  "gitbutlerapp/gitbutler": {
+    "repo_info": {
+      "name": "gitbutler",
+      "full_name": "gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "license": "Fair Source (becomes MIT after 2 years)",
+      "stars": 19065,
+      "forks": 822,
+      "topics": ["git", "github", "tauri"],
+      "homepage": "https://gitbutler.com",
+      "created_at": "2023-01-31",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Tauri-based desktop application with Rust backend and Svelte frontend",
+      "tech_stack": {
+        "framework": "Tauri",
+        "ui": "Svelte + TypeScript",
+        "backend": "Rust",
+        "cli": "Rust with same engine as GUI"
+      },
+      "license_terms": "Fair Source - MIT with expiring non-compete clause after 2 years"
+    },
+    "core_features": [
+      "Stacked branches - effortless creation and automatic restacking",
+      "Parallel branches - organize work on multiple branches simultaneously",
+      "Easy commit management - uncommit, reword, amend, move, split, squash by drag-drop",
+      "Undo timeline - log all operations and easy undo/revert",
+      "First-class conflicts - rebases always succeed, resolve conflicts in any order",
+      "Forge integration - GitHub/GitLab authentication, PR management, CI status",
+      "AI tooling - built-in handlers for commit messages, branch names, PR descriptions",
+      "Hooks and skills integration for AI agent systems",
+      "CLI (but) - same Rust engine with command-line interface"
+    ],
+    "potential_use_cases": [
+      "Modern Git workflow management",
+      "Feature development with stacked changes",
+      "Code review workflow optimization",
+      "AI-powered development workflows",
+      "Large project branch management",
+      "Git complexity reduction",
+      "Team collaboration enhancement",
+      "CI/CD workflow integration"
+    ]
+  },
+  "carlvellotti/claude-code-pm-course": {
+    "repo_info": {
+      "name": "claude-code-pm-course",
+      "full_name": "carlvellotti/claude-code-pm-course",
+      "description": "Interactive course teaching Product Managers how to use Claude Code effectively",
+      "language": "MDX",
+      "license": "CC BY-NC-ND 4.0",
+      "stars": 893,
+      "forks": 151,
+      "topics": [],
+      "homepage": "https://claude-code-pm-course.vercel.app",
+      "created_at": "2025-10-17",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "course_structure": "Interactive MDX-based course materials",
+      "delivery_methods": ["Interactive Track (with Claude Code)", "Reference Track (standalone)"],
+      "license": "Creative Commons BY-NC-ND 4.0 - view and share with attribution, no commercial use or modification"
+    },
+    "core_features": [
+      "Module 0: Getting Started - Installation and clone",
+      "Module 1: Claude Code Fundamentals - TaskFlow, file operations, agents, sub-agents, project memory",
+      "Module 2: Advanced PM Scenarios - PRD writing, data analysis, product strategy",
+      "Hands-on lessons with slash commands",
+      "Multi-perspective feedback via agents",
+      "CLAUDE.md for context customization",
+      "Real PM workflow examples"
+    ],
+    "potential_use_cases": [
+      "Product manager training for AI tools",
+      "Claude Code onboarding for PM teams",
+      "Product documentation automation",
+      "Data-driven decision making with AI",
+      "Competitive analysis workflows",
+      "PRD development assistance",
+      "Meeting note processing",
+      "Research analysis acceleration"
+    ]
+  },
+  "Shubhamsaboo/awesome-llm-apps": {
+    "repo_info": {
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 93692,
+      "forks": 13590,
+      "topics": ["agents", "llms", "python", "rag"],
+      "homepage": "https://www.theunwindai.com",
+      "created_at": "2024-04-29",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "type": "Curated collection of LLM applications and tutorials",
+      "categories": [
+        "Starter AI Agents",
+        "Advanced AI Agents",
+        "Autonomous Game Playing Agents",
+        "Multi-agent Teams",
+        "Voice AI Agents",
+        "MCP AI Agents",
+        "RAG Tutorials",
+        "LLM Apps with Memory",
+        "Chat with X Tutorials",
+        "LLM Optimization Tools",
+        "LLM Fine-tuning Tutorials",
+        "AI Agent Framework Crash Course"
+      ],
+      "supported_models": ["OpenAI", "Anthropic", "Google Gemini", "xAI", "Qwen", "Llama", "local models"]
+    },
+    "core_features": [
+      "100+ curated LLM applications",
+      "Starter agents for beginners",
+      "Advanced multi-agent applications",
+      "RAG (Retrieval Augmented Generation) tutorials",
+      "Voice AI agent examples",
+      "MCP (Model Context Protocol) agents",
+      "Memory management tutorials",
+      "LLM optimization tools (token optimization, context compression)",
+      "Fine-tuning guides (Gemma 3, Llama 3.2)",
+      "Framework crash courses (Google ADK, OpenAI Agents SDK)",
+      "Real-world use case examples"
+    ],
+    "potential_use_cases": [
+      "Learning LLM application development",
+      "Building AI agents from scratch",
+      "Implementing RAG systems",
+      "Voice-enabled AI applications",
+      "Multi-agent team orchestration",
+      "Optimizing LLM token usage and costs",
+      "Fine-tuning models for specific tasks",
+      "Reference implementations for various AI patterns"
+    ]
+  },
+  "drawdb-io/drawdb": {
+    "repo_info": {
+      "name": "drawdb",
+      "full_name": "drawdb-io/drawdb",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "stars": 36390,
+      "forks": 2841,
+      "topics": ["database-schema", "diagram-editor", "editor", "erd", "erdiagram", "indexeddb", "javascript", "mariadb", "oracle-database", "oracle-db", "postgresql", "react", "sql", "sql-server", "sqlite", "svg", "tailwindcss"],
+      "homepage": "https://drawdb.app",
+      "created_at": "2023-07-16",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "React-based browser application for database schema design",
+      "tech_stack": {
+        "frontend": "React",
+        "styling": "Tailwind CSS",
+        "build_tool": "npm",
+        "deployment": "Docker supported"
+      },
+      "supported_databases": [
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "MariaDB",
+        "Oracle",
+        "SQL Server",
+        "IndexedDB"
+      ],
+      "output_formats": ["SQL scripts", "SVG", "JSON"]
+    },
+    "core_features": [
+      "Visual database entity relationship (ERD) editor",
+      "SQL generation for multiple database types",
+      "Drag-and-drop table creation and relationship management",
+      "Custom schema editor with validation",
+      "No account required for basic use",
+      "Local development with npm run dev",
+      "Docker deployment support",
+      "Export SQL scripts for various databases"
+    ],
+    "potential_use_cases": [
+      "Database schema design and visualization",
+      "SQL script generation from visual diagrams",
+      "Database documentation",
+      "Team collaboration on database design",
+      "Educational tool for learning database relationships",
+      "Migration planning",
+      "Database architecture reviews",
+      "Rapid prototyping of data models"
+    ]
+  },
+  "pydantic/monty": {
+    "repo_info": {
+      "name": "monty",
+      "full_name": "pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "language": "Rust",
+      "license": "MIT",
+      "stars": 4600,
+      "forks": 164,
+      "topics": [],
+      "homepage": "",
+      "created_at": "2023-05-28",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Rust-based secure Python interpreter for AI-generated code execution",
+      "rust_workspace_members": [
+        "crates/monty (core)",
+        "crates/monty-cli",
+        "crates/monty-python",
+        "crates/monty-js",
+        "crates/monty-type-checking",
+        "crates/monty-typeshed",
+        "crates/fuzz"
+      ],
+      "performance": {
+        "startup_time": "<1 microsecond",
+        "runtime_performance": "5x faster to 5x slower than CPython"
+      },
+      "security_model": "Explicit control of filesystem, network, and env access"
+    },
+    "core_features": [
+      "Minimal Python subset for agent expressions",
+      "Complete host environment blocking (filesystem, env vars, network)",
+      "Controlled function calling to host",
+      "Full type hint support with integrated 'ty' typechecker",
+      "Snapshots to bytes at external function calls",
+      "Cross-language support (Rust, Python, JavaScript)",
+      "Resource usage tracking (memory, allocations, stack depth, execution time)",
+      "Async and sync code execution",
+      "Serialization of interpreter state for resumption"
+    ],
+    "capabilities": [
+      "Controlled Python execution",
+      "Type checking",
+      "Snapshotting",
+      "External function calls",
+      "Resource limits"
+    ],
+    "limitations": [
+      "Limited standard library (sys, typing, asyncio, dataclasses, json)",
+      "No third-party libraries",
+      "No classes (support planned)",
+      "No match statements (support planned)"
+    ],
+    "potential_use_cases": [
+      "Safe execution of AI-generated Python code",
+      "Code-mode implementation for AI agents",
+      "Sandboxed tool calling with programmatic interfaces",
+      "Reducing LLM API costs through code-based tools",
+      "Faster agent workflows compared to traditional tool calling",
+      "Embedded interpreter for AI-powered applications"
+    ]
+  },
+  "cheahjs/free-llm-api-resources": {
+    "repo_info": {
+      "name": "free-llm-api-resources",
+      "full_name": "cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "license": null,
+      "stars": 8764,
+      "forks": 854,
+      "topics": ["ai", "claude", "gemini", "llama", "llm", "openai"],
+      "homepage": "",
+      "created_at": "2024-07-04",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "type": "Curated resource list for free LLM API access",
+      "categories": [
+        "Free Providers (permanently free)",
+        "Providers with trial credits"
+      ]
+    },
+    "free_providers": [
+      "OpenRouter - up to 1000 requests/day with $10 lifetime topup",
+      "Google AI Studio - Various Gemini models with generous limits",
+      "NVIDIA NIM - 40 requests/minute",
+      "Mistral La Plateforme - 500K tokens/minute, 1M tokens/month",
+      "Mistral Codestral - 30 requests/minute, 2000 requests/day",
+      "HuggingFace Inference - $0.10/month in credits",
+      "Vercel AI Gateway - $5/month",
+      "Cerebras - Various models with high throughput",
+      "Groq - Multiple models with daily limits",
+      "Cohere - 20 requests/minute, 1000 requests/month",
+      "GitHub Models - Dependent on Copilot tier",
+      "Cloudflare Workers AI - 10,000 neurons/day",
+      "Google Cloud Vertex AI - Free during preview period"
+    ],
+    "trial_credit_providers": [
+      "Fireworks - $1 credits",
+      "Baseten - $30 credits",
+      "Nebius - $1 credits",
+      "Novita - $0.5 for 1 year",
+      "AI21 - $10 for 3 months",
+      "Upstage - $10 for 3 months",
+      "NLP Cloud - $15 credits",
+      "Alibaba Cloud - 1M tokens/model",
+      "Modal - $5/month upon signup",
+      "Inference.net - $1, $25 on survey",
+      "Hyperbolic - $1 credits",
+      "SambaNova Cloud - $5 for 3 months",
+      "Scaleway - 1M free tokens"
+    ],
+    "potential_use_cases": [
+      "Finding free LLM resources for development",
+      "Cost-effective AI application development",
+      "Testing multiple LLM providers without cost",
+      "Building MVPs with free tier APIs",
+      "Educational use and experimentation",
+      "Backup API provider identification"
+    ]
+  },
+  "Jeffallan/claude-skills": {
+    "repo_info": {
+      "name": "claude-skills",
+      "full_name": "Jeffallan/claude-skills",
+      "description": "65 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 908,
+      "forks": 78,
+      "topics": ["ai-agents", "claude", "claude-code", "claude-marketplace", "claude-skills"],
+      "homepage": "",
+      "created_at": "2025-10-20",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Claude Code plugin with 66 specialized skills across 12 categories",
+      "skill_categories": [
+        "Languages",
+        "Backend/Frameworks",
+        "Frontend",
+        "Infrastructure",
+        "APIs",
+        "Testing",
+        "DevOps",
+        "Security",
+        "Data/ML",
+        "Platform Specialists"
+      ],
+      "activation_method": "Context-aware automatic activation based on request",
+      "workflow_count": 9 workflow commands for project management"
+    },
+    "core_features": [
+      "66 specialized skills across 12 categories",
+      "Context-aware activation based on user request",
+      "Multi-skill workflows for complex tasks",
+      "Context engineering with /common-ground command",
+      "Reference materials loaded with skills (365 reference files)",
+      "Workflow commands for epics (discovery, development, retrospectives)",
+      "Atlassian integration (Jira, Confluence)",
+      "Skills cover: NestJS, React, Django, FastAPI, PostgreSQL, Docker, AWS, Security, Testing"
+    ],
+    "workflow_patterns": {
+      "Feature Development": "Feature Forge -> Architecture Designer -> Fullstack Guardian -> Test Master -> DevOps Engineer",
+      "Bug Investigation": "Debugging Wizard -> Framework Expert -> Test Master -> Code Reviewer",
+      "Security Hardening": "Secure Code Guardian -> Security Reviewer -> Test Master"
+    },
+    "potential_use_cases": [
+      "Full-stack development assistance",
+      "Backend framework specialization (NestJS, Django, FastAPI)",
+      "Frontend development (React, Server Components)",
+      "Infrastructure as code (Terraform, Docker, Kubernetes)",
+      "API development (REST, GraphQL) and testing",
+      "Security best practices implementation",
+      "Testing automation (Jest, pytest)",
+      "DevOps and CI/CD workflows"
+    ]
+  },
+  "virattt/dexter": {
+    "repo_info": {
+      "name": "dexter",
+      "full_name": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "license": null,
+      "stars": 14232,
+      "forks": 1708,
+      "topics": [],
+      "homepage": null,
+      "created_at": "2025-10-14",
+      "updated_at": "2026-02-11"
+    },
+    "technical_principles": {
+      "architecture": "Bun-based autonomous financial research agent",
+      "runtime": "Bun v1.0+",
+      "data_sources": [
+        "Financial Datasets API (institutional-grade market data)",
+        "OpenAI API (primary LLM)",
+        "Exa API (web search, optional)",
+        "Anthropic API (optional)",
+        "Google API (optional)",
+        "xAI API (optional)",
+        "OpenRouter (optional)",
+        "Ollama (local, optional)"
+      ],
+      "evaluation": "LangSmith tracking with LLM-as-judge scoring"
+    },
+    "core_features": [
+      "Intelligent task planning - decomposes complex queries into structured steps",
+      "Autonomous execution - selects and executes tools for financial data",
+      "Self-validation - checks work and iterates until confident",
+      "Real-time financial data - income statements, balance sheets, cash flow",
+      "Safety features - loop detection and step limits",
+      "Live market data access (AAPL, NVDA, MSFT free)",
+      "Evaluation suite with accuracy tracking",
+      "Scratchpad logging for debugging"
+    ],
+    "potential_use_cases": [
+      "Financial statement analysis",
+      "Investment research automation",
+      "Market data query and interpretation",
+      "Financial question answering",
+      "Due diligence automation",
+      "Financial data extraction and summarization",
+      "Investment decision support",
+      "Financial report generation"
+    ]
+  }
+}
